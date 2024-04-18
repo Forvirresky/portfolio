@@ -1,0 +1,182 @@
+
+
+.box {
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    z-index: 10;
+}
+
+/* Rectangle 1 */
+
+.Rectangle1 {
+position: absolute;
+width: 1355px;
+height: 947px;
+left: 50px;
+top: 50px;
+
+background-image: url("IMAGES/Background.png");
+}
+
+/* Mask group */
+
+.Maskgroup {
+position: absolute;
+width: 1355px;
+height: 947px;
+left: 42px;
+top: 38px;
+}
+
+
+/* Outline */
+
+.Outline {
+position: absolute;
+width: 1355px;
+height: 947px;
+left: 42px;
+top: 38px;
+
+border: 8px solid #000000;
+border-radius: 20px;
+}
+
+/* Rectangle Top */
+
+.RectangleTop {
+position: absolute;
+width: 1355px;
+height: 108px;
+left: 42px;
+top: 38px;
+
+background: #FFCC9E;
+border: 8px solid #000000;
+border-radius: 20px;
+}
+
+/* Red Ellipse 2 */
+
+.RedEllipse {
+position: absolute;
+width: 48px;
+height: 48px;
+left: 84px;
+top: 68px;
+
+background: #E10D0E;
+border: 8px solid #000000;
+border-radius: 37px;
+}
+
+/* Yellow Ellipse 3 */
+
+.YellowEllipse {
+position: absolute;
+width: 48px;
+height: 48px;
+left: 158px;
+top: 68px;
+
+background: #DAAE10;
+border: 8px solid #000000;
+border-radius: 37px;
+}
+
+/* Green Ellipse 4 */
+
+.GreenEllipse {
+position: absolute;
+width: 48px;
+height: 48px;
+left: 232px;
+top: 68px;
+
+background: #4BDC0E;
+border: 8px solid #000000;
+border-radius: 37px;
+}
+
+/* Vector */
+
+.vector {
+position: absolute;
+width: 509.65px;
+height: 648.63px;
+left: 790px;
+top: 231px;
+}
+
+/* ABOUT ME */
+
+h1 {
+position: absolute;
+width: 515px;
+height: 150px;
+left: 89px;
+top: 120px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 150px;
+    color: #FFE0C4;
+/* identical to box height */
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+
+}
+
+p {
+position: absolute;
+width: 650px;
+height: 573px;
+left: 89px;
+top: 310px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 48px;
+
+color: #000000;
+}
+
+ul {
+list-style-type: none; /* removes bullets */
+margin-top: 88px;
+    margin-left: 550px;
+}
+
+li {
+display: inline;
+margin-bottom: 0px;
+font-size: 32px;
+    
+}
+
+a {
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size: 32px;
+color: black;
+opacity: .4;
+padding-right: 100px;
+text-decoration: none;  /* removes underline */
+}
+
+a:hover {
+opacity: 1; /* Hover State */
+}
+
+a.active {
+font-weight: 400; /* When Active */
+opacity: 1;
+}
+
